@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header class="navbar">
+        <div class="logo">
+            <!-- <img src="logo.png" alt="Areeba's Kitchen Logo"> -->
+            <h1><i>AREEBA'S KITCHEN</i></h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="./menu.html" class="active">Menu</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn-outline-nav">Book A Table</button>
+    </header>
+
+
+
+    <section class="menu-section">
+        <div class="menu-container">
+            <div class="menu-header">
+                <h1 class="menu-title">Our Menu</h1>
+                <p class="menu-subtitle">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+            </div>
+    
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="breakfast">Breakfast</button>
+                <button class="filter-btn" data-category="main-dishes">Main Dishes</button>
+                <button class="filter-btn" data-category="drinks">Drinks</button>
+                <button class="filter-btn" data-category="desserts">Desserts</button>
+            </div>
+    
+            <div class="menu-grid" id="menuGrid">
+                <div class="menu-card" data-category="breakfast">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=500" alt="Fried Eggs">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 9.99</h3>
+                        <h4 class="card-title">Fried Eggs</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="main-dishes">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=500" alt="Hawaiian Pizza">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 15.99</h3>
+                        <h4 class="card-title">Hawaiian Pizza</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="drinks">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=500" alt="Martinez Cocktail">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 7.25</h3>
+                        <h4 class="card-title">Martinez Cocktail</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="desserts">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=500" alt="Butterscotch Cake">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 20.99</h3>
+                        <h4 class="card-title">Butterscotch Cake</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="drinks">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=500" alt="Mint Lemonade">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 5.89</h3>
+                        <h4 class="card-title">Mint Lemonade</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="desserts">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=500" alt="Chocolate Icecream">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 18.05</h3>
+                        <h4 class="card-title">Chocolate Icecream</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="main-dishes">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500" alt="Cheese Burger">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 12.55</h3>
+                        <h4 class="card-title">Cheese Burger</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+    
+                <div class="menu-card" data-category="breakfast">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=500" alt="Classic Waffles">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-price">$ 12.99</h3>
+                        <h4 class="card-title">Classic Waffles</h4>
+                        <p class="card-desc">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <!-- <img src="logo-white.png" alt="Areeba's Kitchen" class="logo-img"> -->
+                    <span class="logo-text">Areeba's Kitchen</span>
+                </div>
+                <p>In the new era of technology we look a in the future with certainty and pride to for our company and..</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./img/twitter.png" alt="TW"></a>
+                    <a href="#"><img src="./img/images.png" alt="FB"></a>
+                    <a href="#"><img src="./img/Instagram_icon.png (1).png" alt="IG"></a>
+                    <a href="#"><img src="./img/github logo.png" alt="GH"></a>
+                </div>
+            </div>
+    
+            <div class="footer-col">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </div>
+    
+            <div class="footer-col">
+                <h3>Follow Us On Instagram</h3>
+                <div class="insta-grid">
+                    <img src="./img/assorted-sushi-platter-elegant-table-setting_711700-21906.avif" alt="Dish 1">
+                    <img src="./img/premium_photo-1667682942059-33ee7a49cb28.jpg" alt="Dish 2">
+                    <img src="./img/FAW-recipes-pasta-sausage-basil-and-mustard-hero-06-cfd1c0a2989e474ea7e574a38182bbee.jpg" alt="Dish 3">
+                    <img src="./img/pngtree-aesthetic-food-backgrounds-in-ultra-hd-image_17007252.jpg" alt="Dish 4">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Areeba's Kitchen. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
